@@ -1,0 +1,197 @@
+*{margin:0;padding:0}
+em{font-style:normal;}
+ul,li{list-style:none;}
+a{text-decoration:none;}
+h1,h2,h3,h4,h5,h6,b{font-weight:100;}
+body{font:12px "微软雅黑";}
+img{border:none;}
+
+/*-----------------head-----------------------------------------*/
+
+.head{width:1423px;height:126px;background-color:#fff;margin:0 auto;border-bottom:1px solid #e6e6e6;position:relative;}
+.head .logo{width:189px;height:33px;background-color:blue;margin:43px 0 0 30px;float:left;cursor:pointer;}
+.head .head_nav{width:391px;height:20px;float:left;margin:88px 0 0 130px;}
+.head_nav li{width:130px;height:20px;float:left}
+.head_nav li img{float:left;cursor:pointer}
+.head_nav li a{font-size:18px;height:20px;line-height:20px;float:left;margin-left:14px;color:#2b2b2b}
+
+.head .usermenu{width:325px;height:44px;background:url(../css/img/zhengpin.jpg) no-repeat left bottom;float:right;margin:70px 30px 0 0;}
+.usermenu li{float:left;margin-left:30px;}
+.usermenu li a{font-weight:600;font-size:14px;color:#4d4d4d;}
+.usermenu li a:hover{text-decoration:underline;}
+
+.head .head_topNav{width:1423px;height:40px;background-color:#000;position:absolute;left:0;top:0;position:fixed;z-index:4;background-color:#393939;display:none;}
+.head_topNav li{color:#fff;float:left;width:59px;height:40px;line-height:40px;font-size:14px;text-align:center;border-right:1px solid #565656;cursor:pointer;}
+
+.head_topNav .head_topnavlogo{width:159px;height:40px;}
+.head_topNav .head_navsizi{width:80px;}
+.head_topNav .head_navshirt{width:94px;}
+.head_topNav .head_navsanzi{width:70px;}
+.head_topNav .head_navxiebao{width:63px;}
+.head_topNav .head_naveng{width:84px;}
+.head_topNav .head_meizhuang{width:80px;}
+.head_meizhuang span{font-style:oblique;font-size:12px;color:#62aab9;}
+
+
+/*-------------------------------index_register-----------*/
+.shade {background-color:#000;filter:alpha(opacity=30);opacity:0.3;position:absolute;width:1423px;height:10400px;top:0;left:0;display:none;z-index:1}
+.index_register{background-color:#fff;width:760px;height:358px;position:absolute;left:350px;top:190px;display:none;z-index:3;position:fixed;}
+.index_register .register_close{width:35px;height:35px;background-color:#000;color:#fff;border-radius:50%;border:none;cursor:pointer;font-size:20px;position:absolute;left:740px;top:-10px;}
+.index_register .register_con{width:525px;height:240px;margin:60px 0 0 95px;}
+.register_con .member_register{width:522px;height:49px;}
+.member_register .normal_member{width:261px;height:49px;background-color:#000;}
+.normal_member a{float:left;color:#fff;height:49px;width:261px;line-height:49px;background-color:#000;font-size:14px;text-align:center;}
+.normal_member a:hover{text-decoration:underline;}
+
+.member_register .wholesale_member{width:261px;height:49px;background-color:#fff;}
+.wholesale_member a{float:left;color:#000;height:47px;width:259px;line-height:47px;background-color:#fff;font-size:14px;text-align:center;border:1px solid #000;}
+.wholesale_member a:hover{text-decoration:underline;}
+
+.register_con .register_notice{width:522px;height:34px;background-color:#eee;color:#6f6f6f;line-height:34px;margin-top:16px;}
+.register_notice span{color:#000;font-weight:600;font-size:14px;height:34px;line-height:34px;margin-left:15px;}
+.register_con .regtister_denglu{width:524px;height:85px;margin:10px 0 24px 0;}
+.regtister_denglu .register_info{width:400px;height:78px;float:left;}
+.register_info input{width:385px;height:33px;margin-bottom:6px;border:1px solid #e2e2e2;color:#bbb;}
+
+.regtister_denglu .register_btn{float:right;width:116px;height:78px;background-color:#000;color:#fff;line-height:78px;text-align:center;font-size:20px;cursor:pointer;margin-right:8px;}
+
+.register_con .save_email{color:#6f6f6f;float:left;font-size:14px;}
+
+.register_con .skip_list{margin-left:300px;}
+.skip_list a{float:left;color:#6f6f6f;font-size:14px;}
+.skip_list .new_userzhuce{font-weight:600;font-size:16px;color:#000;text-decoration:underline;}
+.skip_list a:hover{text-decoration:underline;}
+
+
+/*--------------------------------zhuce----------*/
+.index_zhuce{background-color:#fff;width:760px;height:358px;position:absolute;left:350px;top:190px;display:;z-index:3;position:fixed;display:none;}
+.index_zhuce .zhuce_close{width:35px;height:35px;background-color:#000;color:#fff;border-radius:50%;border:none;cursor:pointer;font-size:20px;position:absolute;left:740px;top:-10px;}
+
+.index_zhuce .zhuce_con{width:525px;height:240px;margin:60px 0 0 95px;}
+
+.zhuce_con .member_zhuce{width:522px;height:49px;}
+.member_zhuce .normal_memberzhuce{width:261px;height:49px;background-color:#000;}
+.normal_memberzhuce a{float:left;color:#fff;height:49px;width:261px;line-height:49px;background-color:#000;font-size:14px;text-align:center;}
+.normal_memberzhuce a:hover{text-decoration:underline;}
+
+.member_zhuce .wholesale_memberzhuce{width:261px;height:49px;background-color:#fff;}
+.wholesale_memberzhuce a{float:left;color:#000;height:47px;width:259px;line-height:47px;background-color:#fff;font-size:14px;text-align:center;border:1px solid #000;}
+.wholesale_memberzhuce a:hover{text-decoration:underline;}
+
+
+.zhuce_con .zhuce_neirong{width:524px;height:85px;margin:10px 0 24px 0;}
+.zhuce_neirong .zhuce_info{width:400px;height:78px;float:left;position:relative;}
+.zhuce_info .zhuce_email{width:385px;height:33px;margin-bottom:6px;border:1px solid #e2e2e2;color:#bbb;}
+.zhuce_info .zhuce_password .zhucede_password{width:185px;height:33px;border:1px solid #e2e2e2;color:#bbb;margin-bottom:6px}
+.zhuce_info .zhuce_password .second_password{width:193px;height:33px;border:1px solid #e2e2e2;color:#bbb;margin-bottom:6px;}
+
+.zhuce_info .user_infomation .zhuce_username{width:185px;height:33px;border:1px solid #e2e2e2;color:#bbb;margin-bottom:6px}
+.zhuce_info .user_infomation .zhuce_gender{width:194px;height:34px;border:1px solid #e2e2e2;color:#bbb;margin-bottom:6px}
+
+.zhuce_info .phone_yanzhengma .zhuce_phoneNum{width:185px;height:33px;border:1px solid #e2e2e2;color:#bbb;margin-bottom:6px;float:left;}
+.zhuce_info .phone_yanzhengma .yanzhengma_pic{width:74px;height:35px;background:url(../css/img/yanzhengma.jpg) no-repeat center #e6e6e6;float:left;margin-left:4px;cursor:pointer;}
+.zhuce_info .phone_yanzhengma .zhuce_yanzhengma{width:93px;height:34px;border:1px solid #e2e2e2;margin-left:6px;}
+
+.zhuce_neirong .zhuce_btn{float:right;width:115px;height:110px;background-color:#000;color:#fff;text-align:center;font-size:22px;cursor:pointer;margin-right:8px;padding-top:51px;}
+.zhuce_btn p{font-weight:normal;font-size:12px;}
+
+.zhuce_info .zhuce_tips{width:245px;height:18px;float:left;}
+.zhuce_info .oldUser_register{width:100px;height:25px;position:absolute;left:430px;top:165px;font-weight:600;font-size:17px;text-decoration:underline;cursor:pointer;}
+
+/*--------------------------------footer------------------------------------*/
+.footbanner{width:1423px;height:285px;background-color:#fff;}
+.footbanner .banner{width:1112px;height:284px;margin-left:150px;border-left:1px solid #e6e6e6;}
+.banner img{display:block;width:1100px;height:220px;margin-left:12px;}
+
+.footbottom{width:1423px;height:330px;border-top:1px solid #e6e6e6;}
+.footbottom .bottom_box{width:1104px;height:330px;margin:0 auto;}
+.bottom_box .bottom_contact{float:left;width:445px;height:247px;margin-top:60px;}
+.bottom_contact h2{width:160px;height:44px;font-weight:600;background:url(../css/img/contact_bg.jpg) no-repeat left top;line-height:44px;}
+
+.bottom_box .bottom_contact .worktime{font-weight:600;font-size:12px;color:#2b2b5b;}
+.bottom_box .bottom_contact .address{font-weight:600;font-size:12px;margin-top:20px;color:#2b2b5b;}
+.bottom_box .bottom_contact .copyright{color:#999999;margin-top:20px;}
+
+.bottom_box .bottom_help{float:left;width:656px;height:247px;background-color:#fff;margin-top:60px;border-left:1px solid #e6e6e6;}
+.bottom_help .help_list{width:656px;height:114px;margin-top:15px;}
+.bottom_help .help_list .help_detail{float:left;margin-left:48px;}
+.help_detail h3{color:#999999;font-weight:600}
+.help_detail ul{margin-top:25px;}
+.help_detail ul li{font-size:12px;height:25px;line-height:25px;color:#999999;}
+.help_detail li a{color:#999;}
+.help_detail li a:hover{text-decoration:underline;}
+
+.bottom_help .helps_bottom{width:610px;height:48px;margin:64px 0 0 43px;}
+.helps_bottom .bottom_email{width:356px;height:48px;float:left}
+.bottom_email a{display:block;width:63px;height:44px;background-color:#999999;float:left;line-height:44px;}
+.bottom_email .requirement{width:61px;margin-left:3px;text-align:center;color:#fff;}
+.bottom_email .help_txt{height:40px;width:175px;float:left;color:#b0b0d3;text-indent:15px;}
+.bottom_email .email_btn{float:right;background-color:#6f6f6f;color:#fff;text-align:center;width:49px;}
+.helps_bottom .goods_num{float:left;width:200px;height:44px;margin-left:52px;border:1px solid #e6e6e6;}
+.goods_num li{margin:5px 0 0 24px;color:#999;}
+.bottom_email a:hover{text-decoration:underline;}
+
+.partner{width:1423px;background-color:#fff;}
+.partner .partner_box{width:990px;height:87px;margin:0 auto;padding:30px 0 0 122px;border-top:1px solid #e6e6e6}
+.partner_box img{float:left;margin-right:17px;}
+
+/*----------------------------------------------box-------------------------*/
+.box_content{width:1423px;height:10400px;}
+.idx_left{width:150px;height:10400px;float:left;border:1px solid #e6e6e6;border-left:none;}
+.idx_left .idx_nav{margin:36px 0 0 28px;width:88px;background-color:#fff;}
+.idx_left .idx_nav li{height:22px;width:88px;}
+.idx_nav .new a{font-weight:600;font-size:14px;color:#ff5363;}
+.idx_nav li a{display:block;height:22px;width:88px;line-height:22px;font-weight:600;font-size:14px;color:#6f6f6f}
+.idx_nav li a span{margin-left:2px;color:#32c8f0;font-style:italic;font-size:12px;border-bottom:2px dotted #32c8f0;}
+
+.idx_left .sponsor{width:149px;height:40px;background-color:#fff;margin-top:28px;border:1px solid #e6e6e6;}
+.sponsor li a{display:block;height:40px;line-height:40px;font-weight:600;font-size:13px;width:60px;margin-left:28px;color:#6f6f6f;}
+
+.idx_left .ad{width:150px;height:228px;margin-top:26px;}
+
+.idx_right{width:120px;height:10400px;position:absolute;right:0;top:126px;position:fixed}
+
+.idx_right .menu_btn{width:20px;height:54px;background-color:#d5d5d5;float:left;line-height:54px;font-size:18px;text-align:center;cursor:pointer;}
+
+.idx_right .right_bar{width:100px;height:671px;background-color:#f4f4f4;float:left;}
+.right_bar .quick_menu{width:100px;height:50px;}
+
+.quick_menu .quick_reg a{width:49px;height:50px;float:left;background:url(../css/img/quick_menu.jpg) no-repeat center center #f4f4f4;border-right:1px solid #e6e6e6;}
+.quick_menu .quick_search a{width:50px;height:50px;float:left;background:url(../css/img/quick_btn.jpg) no-repeat center center #f4f4f4;}
+
+.right_bar .user_menu{width:100px;height:320px;border-top:1px solid #e2e2e2;}
+.user_menu li{width:100px;height:106px;border-bottom:1px solid #e2e2e2;}
+.user_menu li a{width:100px;height:106px;display:block;font-size:14px;color:#898989;text-align:center;line-height:106px;}
+.user_menu li a:hover{color:#300030}
+.user_menu .menu_account a{background:url(../css/img/menu_account.jpg) no-repeat center 20px;}
+.user_menu .menu_cart a{background:url(../css/img/menu_cart.jpg) no-repeat center 20px;}
+.user_menu .menu_zcj a{background:url(../css/img/menu_zcj.jpg) no-repeat center 20px;}
+
+.help_menu{width:100px;height:104px;background-color:#f4f4f4;}
+.help_menu li{height:26px;width:100px;}
+.help_menu li a{display:block;font-weight:600;font-size:14px;height:26px;line-height:26px;width:100px;text-align:center;color:#6f6f6f;}
+.help_menu li a:hover{color:#300030}
+
+.help_menu .wechat{position:relative;}
+.help_menu .wechat .wechat_box{width:160px;height:206px;position:absolute;left:-160px;top:-100px;background-color:#fff;display:none;}
+.wechat_box .wechat_code{margin:15px 0 0 14px;}
+.wechat_box .wechat_txt{border-top:1px solid #e6e6e6;margin:8px 0 0 8px;}
+
+
+
+.right_bar .promise{width:100px;height:90px;background:url(../css/img/promise_bg.jpg) no-repeat center 14px #f4f4f4;padding-top:70px;}
+.promise li{width:100px;height:26px;line-height:26px;font-weight:600;font-size:13px;color:#a7a7a7;text-align:center;}
+
+.idx_right .back_top{display:block;width:100px;height:28px;background-color:#d5d5d5;float:left;font-weight:600;font-size:14px;margin-left:20px;text-align:center;line-height:28px;color:#000;position:absolute;left:0;top:620px;}
+
+.fixed{position:fixed; top:615px; width:250px;}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,40 @@
+/*-------------------------------listpage-----------*/
+.listpage{width:1100px;background-color:#fff;margin:0 auto;position:relative;}
+.listpage h1{width:1100px;height:132px;text-align:center;line-height:132px;font-weight:600;font-family:"黑体"}
+
+.listpage .list_nav{width:1096px;height:88px;border-top:1px solid #aeaeae;padding-left:4px;}
+.list_nav span{float:left;width:83px;height:86px;border-left:1px solid #e7e7e7;line-height:86px;font-size:16px;color:#888;text-align:center;cursor:pointer;background-color:#f7f7f7;border-bottom:1px solid #e7e7e7;}
+.list_nav .listpage_shirt,.listpage_summer{width:125px;}
+.list_nav .listpage_summer{width:125px;border-right:1px solid #e7e7e7;}
+.list_nav span:hover{color:#000;text-decoration:underline;}
+
+
+.listpage .shopping_bar{width:1100px;height:51px;background-color:#fff;margin-top:54px;}
+.shopping_bar .goods_total{width:90px;height:50px;float:left;}
+.goods_total p{float:left;margin-top:15px;}
+.goods_total .total_num{font-size:16px;}
+.goods_total .total_eng{font-size:14px;}
+
+.shopping_bar select{float:left;margin-left:932px;width:78px;height:29px;color:#888;}
+
+
+
+.listpage_salelist{width:1100px;height:900px;}
+.listpage_salelist li{width:242px;height:498px;float:left;margin-right:33px;}
+.listpage_salelist li p{width:242px;height:14px;margin-top:5px;}
+
+.listpage_salelist li p a:hover{text-decoration:underline;color:#fc1b50}
+.listpage_salelist li .han_title {width:242px;height:28px;}
+.han_title a{color:#999;}
+.listpage_salelist .cn_title a{color:#999;}
+.listpage_salelist .eng_title a{color:#000}
+.listpage_salelist li .sale_icon span{color:#fe7f7f;}
+.sale_discount em{text-decoration:line-through;}
+.sale_discount span{color:#fe7f7f;}
+
+.listpage_salelist p a{display:block;height:14px;font-size:12px;line-height:14px;}
+
+.listpage .listpage_bottomnav{width:1100px;height:103px;background-color:#fff;position:absolute;left:0;top:10270px;}
+.listpage_bottomnav ul{width:283px;height:34px;margin:50px 0 0 416px;}
+.listpage_bottomnav ul li{float:left;width:24px;height:24px;border:1px solid #d0d0d0;line-height:24px;text-align:center;margin-left:5px;color:#999;cursor:pointer;}
+.listpage_bottomnav ul li:hover{color:#000;border:1px solid #09aae6}
