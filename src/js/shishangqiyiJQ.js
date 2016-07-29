@@ -12,18 +12,7 @@
 		}
 	})
 	
-	/*$('.ctc_top').on('mouseenter',function(){
-		$('<span>女人味十足的，花边蕾丝露肩罩衫<br>sunflower off the shoulder blouse<br>RMB205</span>').appendTo('.ctc_top').addClass('touming')
-	}).on('mouseleave',function(){
-		$('ctc_top').remove('.touming');
-	})*/
-	
-	
-	
 	 
-	 
-	
-        
        /* $(window).scroll(function () {
 			var offset = $(".back_top").offset();
             var scrollTop = $(window).scrollTop();
@@ -183,7 +172,7 @@
 		//绑定注册按钮事件
 		$zhuce_btn.on('click',function(){
 			$shade.css('display','none')
-			$index_zhuce.css('display','none')
+			//$index_zhuce.css('display','none')
 			$('.zhuce_email,.zhucede_password').val("")
 			
 			$('.second_password,.zhuce_username').val("")
@@ -320,6 +309,29 @@
 			};
 			console.log($('.cart_goodsnumtext').val());
 		})*/
+		
+		
+		$('.zhuce_btn').on('click',function(){
+			//console.log($('.zhuce_btn'));
+			console.log(1);
+			var youjian = $('.zhuce_email').val();
+			console.log(youjian);
+			var $userpassword =$('.zhucede_password').val();
+			//console.log($dianyou);
+			console.log(2);
+			//console.log($userpassword);
+			var ordd ={};
+			ordd.email1 = youjian;
+			ordd.password = $userpassword;
+			var _cookie ='ordd='+JSON.stringify(ordd);
+			
+			document.cookie = _cookie +';path=/';
+			alert('注册成功');
+			//window.open("../html/shangpinxiangqingye.html");
+		})
+		
+		
+		
 		
 		
 });
